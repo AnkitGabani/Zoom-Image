@@ -1,0 +1,8 @@
+cell.imageView?.setupImageViewer(images: [UIImage(named: "market_demand_banner.jpg")!],
+initialIndex: 0,
+options: [
+.theme(.dark),
+.closeIcon(UIImage(named: "cross-1")!),
+.rightNavItemTitle("", delegate: nil)
+],
+from: nil)
